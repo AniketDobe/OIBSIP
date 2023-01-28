@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5fd;
+    color: #1d1e4c;
+    font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+
+}
+
+.header {
+    background-color: #1d1e4c;
+    padding: 8px;
+    text-align: center;
+    color: #e5e5fd;
+}
+
+#about img {
+    margin-top: 20px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+#about p {
+    clear: both;
+    margin: 30px 60px;
+}
+
+#achievements, #timeline {
+    margin-top: 50px;
+}
+
+#achievements ul, #timeline ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.header, #about, #achievements, #timeline, .footer {
+    text-align: center; /* aligns text and inline elements to center */
+}
+
+#about img {
+    margin: 0 auto; /* centers the image horizontally */
+    display: block;
+}
